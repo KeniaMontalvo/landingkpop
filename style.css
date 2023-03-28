@@ -1,0 +1,84 @@
+/*Barra de navegación*/
+
+.navbar {
+    background-color: #191825;
+}
+
+.navbar a {
+    color: #F3CCFF;
+}
+
+.navbar a:hover {
+    color: #AA77FF;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.dropdown-menu {
+    background-color: #191825;
+}
+
+.btn-outline-success {
+    border-color: #F3CCFF;
+    color: #F3CCFF;
+}
+
+.btn-outline-success:hover {
+    background-color: #F3CCFF;
+    color: #191825;
+}
+
+/* Footer */
+
+footer {
+    min-height: 500px;
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid #E63E6D;
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: black;
+  }
+  
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+  }
