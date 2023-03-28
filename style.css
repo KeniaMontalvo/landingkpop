@@ -9,7 +9,7 @@
 }
 
 .navbar a:hover {
-    color: #AA77FF;
+    color: #609EE6;
 }
 
 .navbar-brand img {
@@ -28,6 +28,73 @@
 .btn-outline-success:hover {
     background-color: #F3CCFF;
     color: #191825;
+}
+
+/*Bienvenida: jumbotron*/
+
+.bienvenida {
+    height: 560px;
+    background-color: #609EE6;
+    color: white;
+}
+
+.bienvenida h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.bienvenida p {
+    padding-left: 40px;
+}
+
+.bienvenida input {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    height: 46px;
+    line-height: 47px;
+    width: 250px;
+}
+
+input {
+    font-size: 13px;
+    text-align:left;
+    padding-left: 9px;
+}
+
+input::placeholder {
+    font-size: 13px;
+    text-align:left;
+    padding-left: 3px;
+}
+
+input:focus {
+    font-size: 13px;
+    text-align:left;
+    padding-left: 9px;
+}
+
+.btn {
+    border: 2px;
+}
+
+.btn:hover {
+    background-color: #EBB02D;
+    border: #EBB02D;
+    border: 2px;
+    color: white;
+    transform: scale(1);
+}
+
+.letras-pequeñas {
+    font-size: 13px;
+}
+
+.imagen-jumbotron img {
+    width: auto;
+    height: 560px;
 }
 
 /* Footer */

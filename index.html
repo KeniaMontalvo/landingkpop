@@ -1,193 +1,328 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Leaves Garden Shop</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    
-  <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
 
-  <!--Icono-->
-  <link rel="icon" type="image/x-icon" href="images/icono.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
 
+    <!--Icono-->
+    <link rel="icon" type="image/x-icon" href="images/icono.png" />
   </head>
   <body>
-
-  <!--header-->
+    <!--header-->
 
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="images/icono.png" alt="ícono de Leaves Garden Shop"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">¿Quiénes somos?</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Catálogo
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Novedades</a></li>
-                <li><a class="dropdown-item" href="#">Para envío inmediato</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Recomendados</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                FAQ
-              </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Procedimiento</a></li>
-              <li><a class="dropdown-item" href="#">Métodos de Pago</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Referencias</a></li>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/icono.png" alt="ícono de Leaves Garden Shop"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Quiénes somos?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Catálogo</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Novedades</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Para envío inmediato</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Recomendados</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >FAQ</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Procedimiento</a></li>
+                  <li><a class="dropdown-item" href="#">Métodos de Pago</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Referencias</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
             </ul>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="¿Qué álbum buscas?" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="¿Qué álbum buscas?"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--jumbotron-->
+
+    <section class="bienvenida">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-6 order-md-1">
+            <h1 class="display-4">Encuentra tu próximo álbum favorito aquí</h1>
+            <p class="lead">
+              ¡Cotiza tu álbum favorito hoy! Pregunta por su precio sin
+              compromiso alguno.
+            </p>
+            <hr class="my-4" />
+            <p>
+              <strong>
+                Ingrese lo siguiente. ✨
+              </strong>
+            </p>
+            <p class="lead">
+              <label for="producto"></label>
+              <input
+                type="text"
+                name="Producto"
+                placeholder="Producto a cotizar"
+                id="producto"/>
+
+              <label for="email"></label>
+              <input type="email" 
+              name="Email" 
+              placeholder="Email" 
+              id="email"/>
+
+              <a class="btn btn-primary btn-lg" href="#" role="button">Enviar</a>
+
+            </p>
+
+            <p class="letras-pequeñas">*Agradecemos tu interés, nos comunicaremos contigo en un plazo de <strong>24 a 48 horas</strong> para brindarte la información que requieres. </p>
+          </div>
+
+          <div class="imagen-jumbotron col-md-6 order-md-2">
+            <img src="./images/newjeans.jpg" alt="Novedad más reciente" />
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </section>
 
-  <!--jumbotron-->
+    <!--catálogo: stock-->
 
-    <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div class="container">
+      <div class="card" style="width: 18rem">
+        <img class="card-img-top" src="..." alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Formas de pago-->
+
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#list-item-1"
+        >Item 1</a
+      >
+      <a class="list-group-item list-group-item-action" href="#list-item-2"
+        >Item2</a
+      >
+      <a class="list-group-item list-group-item-action" href="#list-item-3"
+        >Item 3</a
+      >
+      <a class="list-group-item list-group-item-action" href="#list-item-4"
+        >Item 4</a
+      >
+    </div>
+    <div
+      data-spy="scroll"
+      data-target="#list-example"
+      data-offset="0"
+      class="scrollspy-example"
+    >
+      <h4 id="list-item-1">Item 1</h4>
+      <p>...</p>
+      <h4 id="list-item-2">Item 2</h4>
+      <p>...</p>
+      <h4 id="list-item-3">Item 3</h4>
+      <p>...</p>
+      <h4 id="list-item-4">Item 4</h4>
+      <p>...</p>
+    </div>
+
+    <!--Forms-->
+
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="inputPassword4"
+            placeholder="Password"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress"
+          placeholder="1234 Main St"
+        />
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Address 2</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress2"
+          placeholder="Apartment, studio, or floor"
+        />
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" />
+          <label class="form-check-label" for="gridCheck"> Check me out </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+
+    <!--Footer-->
+
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="imagenes/icono-blanco.svg"
+        alt="Logo del portafolio"
+      />
+      <p class="footer-texto text-center">
+        Aprendamos todos los días.<br />Compartamos nuevas experiencias.
       </p>
-    </div>
-  
-
-  <!--catálogo: stock-->
-
-  <div class="container">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://twitter.com/kenliera"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a
+          href="https://github.com/KeniaMontalvo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kenia-montalvo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/kenia_montalvo/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="mailto:kenlimonra@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
       </div>
-    </div>
-  </div>
-
-  <!--Formas de pago-->
-
-  <div id="list-example" class="list-group">
-    <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-    <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
-    <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-    <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-  </div>
-  <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-    <h4 id="list-item-1">Item 1</h4>
-    <p>...</p>
-    <h4 id="list-item-2">Item 2</h4>
-    <p>...</p>
-    <h4 id="list-item-3">Item 3</h4>
-    <p>...</p>
-    <h4 id="list-item-4">Item 4</h4>
-    <p>...</p>
-  </div>
-
-
-  <!--Forms-->
-
-  <form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <div class="derechos-de-autor">
+        Creado con ❤️ por Kenia Montalvo (2023) &#169;
       </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Password</label>
-        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="inputAddress">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-    <div class="form-group">
-      <label for="inputAddress2">Address 2</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputCity">City</label>
-        <input type="text" class="form-control" id="inputCity">
-      </div>
-      <div class="form-group col-md-4">
-        <label for="inputState">State</label>
-        <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
-      </div>
-      <div class="form-group col-md-2">
-        <label for="inputZip">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck">
-        <label class="form-check-label" for="gridCheck">
-          Check me out
-        </label>
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </form>
+    </footer>
 
-
-  <!--Footer-->
-
-  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
-    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
-    <p class="footer-texto text-center">Aprendamos todos los días.<br>Compartamos nuevas experiencias.</p>
-    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-      <a href="https://twitter.com/kenliera" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-twitter"></i>
-      </a>
-      <a href="https://github.com/KeniaMontalvo" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/kenia-montalvo/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-linkedin"></i>
-      </a>
-      <a href="https://www.instagram.com/kenia_montalvo/" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a href="mailto:kenlimonra@gmail.com" target="_blank" rel="noopener noreferrer">
-        <i class="bi bi-envelope"></i>
-      </a>
-    </div>
-    <div class="derechos-de-autor">Creado con ❤️ por Kenia Montalvo (2023) &#169;</div>
-  </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
