@@ -1,3 +1,9 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 /*Barra de navegación*/
 
 .navbar {
@@ -20,6 +26,16 @@
     background-color: #191825;
 }
 
+.form-control {
+    width: 200px;
+    height: auto;
+}
+
+.form-control input:focus {
+    width: 200px;
+    height: auto;
+}
+
 .btn-outline-success {
     border-color: #F3CCFF;
     color: #F3CCFF;
@@ -33,7 +49,7 @@
 /*Bienvenida: jumbotron*/
 
 .bienvenida {
-    height: 560px;
+    height: 570px;
     background-color: #609EE6;
     color: white;
 }
@@ -41,19 +57,20 @@
 .bienvenida h1 {
     text-transform: uppercase;
     font-weight: bolder;
-    padding-top: 40px;
-    padding-left: 40px;
+    padding: 80px 5px 30px 40px;
 }
 
 .bienvenida p {
     padding-left: 40px;
+    font-size: 17px;
+    padding-right: 10px;
 }
 
 .bienvenida input {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     border: none;
-    height: 46px;
+    height: 40px;
     line-height: 47px;
     width: 250px;
 }
@@ -80,6 +97,13 @@ input:focus {
     border: 2px;
 }
 
+.btn-primary {
+    font-size: 15px;
+    width: 80px;
+    height: 39px;
+    margin-left: 10px;
+}
+
 .btn:hover {
     background-color: #EBB02D;
     border: #EBB02D;
@@ -88,13 +112,74 @@ input:focus {
     transform: scale(1);
 }
 
-.letras-pequeñas {
+.bienvenida p.letras-pequeñas {
     font-size: 13px;
+    padding-top: 10px;
+    padding-right: 30px;
+    color: white;
 }
 
 .imagen-jumbotron img {
-    width: auto;
-    height: 560px;
+    width: 100%;
+    height: 570px;
+    object-fit: contain;
+    padding-top: 40px;
+}
+
+/*Cátalogo*/
+
+.albumes {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 40px;
+    color: #191825;
+}
+
+.albumes span {
+    background-color: #609EE6;
+    font-size: 19px;
+    color:white;
+    text-transform: lowercase;
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.albumes h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.card {
+    color: #191825;
+    border: none;
+    box-shadow: 0px 3px 7px #191825;
+    overflow: hidden;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card:hover {
+    cursor: pointer;
+    color: #A555EC;
 }
 
 /* Footer */
@@ -149,3 +234,4 @@ footer {
     color: #aeaeae;
     padding: 20px;
   }
+
