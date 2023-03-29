@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Leaves Garden Shop</title>
+    <title>Galactic Shop</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,7 +25,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="images/icono.png" alt="ícono de Leaves Garden Shop"
+            <img src="images/icono.png" alt="ícono de Galactic Shop"
           /></a>
           <button
             class="navbar-toggler"
@@ -41,8 +41,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">¿Quiénes somos?</a>
@@ -92,6 +91,9 @@
                 aria-label="Search"/>
               <button class="btn btn-outline-success" type="submit">
                 Buscar
+              </button>
+              <button class="btn btn-dark" type="submit">
+                Iniciar sesión
               </button>
             </form>
           </div>
@@ -144,7 +146,7 @@
       </div>
     </section>
 
-    <!--catálogo: para envío inmediato-->
+    <!--catálogo: álbumes-->
 
     <section class="albumes">
       <span>Nuevo</span>
@@ -152,7 +154,7 @@
       <h6>Precios válidos durante el mes de marzo</h6>
 
       <div class="container mt-3 mb-3">
-        <div class="row row-cols-4 g-4">
+        <div class="row row-cols-4 g-5">
 
           <div class="col">
             <div class="card h-100" style="width: 12rem">
@@ -254,107 +256,103 @@
         </div>
       </div>
 
+      <div class="container d-flex justify-content-center">
+        <div class="btn-toolbar mx-auto" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-costum">1</button>
+            <button type="button" class="btn btn-costum">2</button>
+            <button type="button" class="btn btn-costum">3</button>
+            <button type="button" class="btn btn-costum">4</button>
+          </div>
+      </div>
+      
     </section>
     
 
-    <!--Formas de pago-->
+    <!--Seccion ¿quiénes somos?-->
 
-    <div id="list-example" class="list-group">
-      <a class="list-group-item list-group-item-action" href="#list-item-1"
-        >Item 1</a
-      >
-      <a class="list-group-item list-group-item-action" href="#list-item-2"
-        >Item2</a
-      >
-      <a class="list-group-item list-group-item-action" href="#list-item-3"
-        >Item 3</a
-      >
-      <a class="list-group-item list-group-item-action" href="#list-item-4"
-        >Item 4</a
-      >
+  <section class="nosotros">
+
+    <h6>¿Quiénes somos?</h6>
+    <h1>Galactic Shop 🌠</h1>
+    <p>En Galactic Shop nos apasiona la música y queremos que todos los fanáticos tengan acceso a los mejores álbumes de sus artistas favoritos. Somos un equipo de dos hermanas que decidimos crear un espacio para las personas que buscan conseguir su mercancía de forma más económica y sencilla, a través de órdenes grupales.</p>
+    <p>Nos encargamos de buscar los mejores proveedores y productos para ofrecerte una selección de álbumes de calidad, con precios accesibles y con la comodidad de poder hacer tus compras desde la comodidad de tu hogar.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Regístrate</a>
+
+  </section>
+
+  <!--catálogo: artistas-->
+
+  <section class="albumes">
+    <span>Descubre más</span>
+    <h1>Artistas</h1>
+    <h6>Los más solicitados de este mes</h6>
+
+    <div class="container mt-3 mb-3">
+      <div class="row row-cols-4 g-5">
+
+        <div class="col">
+          <div class="card h-100" style="width: 12rem">
+            <img class="card-img-top" src="./images/facerandom.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Face (Random Ver.)</h5>
+              <p class="card-text text-center">
+                $450.00
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="width: 12rem">
+            <img class="card-img-top" src="./images/indigo.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Índigo (Book Ver.)</h5>
+              <p class="card-text text-center">
+                $395.00
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="width: 12rem">
+            <img class="card-img-top" src="./images/astronaut.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title text-center">The Astronaut (Random Ver.)</h5>
+              <p class="card-text text-center">
+                $430.00
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card h-100" style="width: 12rem">
+            <img class="card-img-top" src="./images/astronaut.png" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title text-center">The Astronaut (Random Ver.)</h5>
+              <p class="card-text text-center">
+                $430.00
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-    <div
-      data-spy="scroll"
-      data-target="#list-example"
-      data-offset="0"
-      class="scrollspy-example"
-    >
-      <h4 id="list-item-1">Item 1</h4>
-      <p>...</p>
-      <h4 id="list-item-2">Item 2</h4>
-      <p>...</p>
-      <h4 id="list-item-3">Item 3</h4>
-      <p>...</p>
-      <h4 id="list-item-4">Item 4</h4>
-      <p>...</p>
+
+    <div class="container d-flex justify-content-center">
+      <div class="btn-toolbar mx-auto" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-costum">1</button>
+          <button type="button" class="btn btn-costum">2</button>
+          <button type="button" class="btn btn-costum">3</button>
+          <button type="button" class="btn btn-costum">4</button>
+        </div>
     </div>
-
-    <!--Forms-->
-
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputEmail4">Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="inputEmail4"
-            placeholder="Email"
-          />
-        </div>
-        <div class="form-group col-md-6">
-          <label for="inputPassword4">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="inputPassword4"
-            placeholder="Password"
-          />
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputAddress">Address</label>
-        <input
-          type="text"
-          class="form-control"
-          id="inputAddress"
-          placeholder="1234 Main St"
-        />
-      </div>
-      <div class="form-group">
-        <label for="inputAddress2">Address 2</label>
-        <input
-          type="text"
-          class="form-control"
-          id="inputAddress2"
-          placeholder="Apartment, studio, or floor"
-        />
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputCity">City</label>
-          <input type="text" class="form-control" id="inputCity" />
-        </div>
-        <div class="form-group col-md-4">
-          <label for="inputState">State</label>
-          <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="form-group col-md-2">
-          <label for="inputZip">Zip</label>
-          <input type="text" class="form-control" id="inputZip" />
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck" />
-          <label class="form-check-label" for="gridCheck"> Check me out </label>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Sign in</button>
-    </form>
+    
+  </section>
 
     <!--Footer-->
 
