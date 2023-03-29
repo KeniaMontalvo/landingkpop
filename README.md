@@ -1,4 +1,4 @@
-# Proyecto de una página "landing" para negocio que vende álbumes kpop.
+# Proyecto 1: Landing de negocio que vende álbumes kpop.
 
 ## **ÍNDICE**
 
@@ -32,6 +32,8 @@ Con las siguientes secciones:
 * **Catálogo**: Sección para mostrar los artículos del sitio web.
 
 * **Adicional**: Sección donde incluí una breve descripción para presentar al negocio junto con un botón de registro para dar mayor valor al sitio.
+
+* **Segundo catálogo**: Sección para mostrar un catálogo nuevo de los artistas más populares que se han vendido.
 
 * **Footer**: Sección que incluye hipervínculos al final de la página.
 
