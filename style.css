@@ -219,6 +219,8 @@ input:focus {
 .nosotros p {
     text-shadow: 10px 10px 10px #191825;
     padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 18px;
 }
 
