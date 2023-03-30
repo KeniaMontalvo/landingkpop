@@ -44,44 +44,12 @@ body {
     color: #191825;
 }
 
-@media (max-width: 800px) {
-    .collapse form {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 15px;
-    }
-}
-
 /*Bienvenida: jumbotron*/
 
 .bienvenida {
     height: 590px;
     background-color: #609EE6;
     color: white;
-}
-
-@media (max-width: 800px) {
-    .bienvenida {
-        height: 790px;
-    }
-}
-
-@media (max-width:767px) {
-    .albumes {
-        margin-top:250px;
-    }
-}
-
-@media (max-width:766px) {
-    .albumes {
-        margin-top:250px;
-    }
-}
-
-@media (max-width:500px) {
-    .albumes {
-        margin-top:150px;
-    }
 }
 
 .bienvenida h1 {
@@ -111,27 +79,6 @@ input {
     padding-left: 9px;
 }
 
-@media (max-width:584px) {
-    .py-3 {
-        flex-wrap: wrap;
-    }
-    .py-3 input {
-        margin-bottom: 10px;
-    }
-}
-
-@media (max-width:846px) {
-    .py-3 {
-        flex-wrap: wrap;
-    }
-    .py-3 input {
-        margin-bottom: 10px;
-    }
-    .bienvenida {
-        height: 750px;
-    }
-}
-
 input::placeholder {
     font-size: 13px;
     text-align:left;
@@ -146,24 +93,6 @@ input:focus {
 
 .btn {
     border: 2px;
-}
-
-@media (max-width:500px) {
-    .btn {
-        margin: 20px;
-    }
-}
-
-@media (min-width:501px) {
-    .btn {
-        margin: 20px;
-    }
-}
-
-@media (max-width:674px) {
-    .btn {
-        margin-top: 20px;
-    }
 }
 
 .btn-primary {
@@ -195,27 +124,12 @@ input:focus {
     z-index: 1;
 }
 
-@media (max-width:767px) {
-    .imagen-jumbotron {
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-    }
-}
-
 .imagen-jumbotron img {
     display: block;
     max-width: 100%;
     height: auto;
     object-fit: cover;
     padding-top: 40px;
-}
-
-@media (max-width:767px) {
-    .imagen-jumbotron img {
-        margin-top:20px;
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-    }
 }
 
 .row {
@@ -230,12 +144,6 @@ input:focus {
     padding-left: 40px;
     color: #191825;
     z-index: 0;
-}
-
-@media (max-width: 800px) {
-    .albumes {
-        padding: 100px 40px 70px 40px;
-    }
 }
 
 .albumes span {
@@ -266,13 +174,6 @@ input:focus {
     overflow: hidden;
     width: 12rem;
     height: 100%;
-}
-
-@media (max-width: 800px) {
-    .card {
-        width: 100%;
-        height: 300px;
-    }
 }
 
 .card-img-top {
@@ -311,36 +212,6 @@ input:focus {
     margin-bottom: 10px;
     text-align: center;
     padding-top: 50px;
-}
-
-@media (max-width: 1076px) {
-    .nosotros {
-        height: 550px;
-    }
-}
-
-@media (max-width: 848px) {
-    .nosotros {
-        height: 620px;
-    }
-}
-
-@media (max-width: 609px) {
-    .nosotros {
-        height: 670px;
-    }
-}
-
-@media (max-width: 542px) {
-    .nosotros {
-        height: 710px;
-    }
-}
-
-@media (max-width: 501px) {
-    .nosotros {
-        height: 800px;
-    }
 }
 
 .nosotros h6 {
@@ -430,3 +301,133 @@ footer {
     padding: 20px;
   }
 
+  /*Responsive*/
+
+@media (max-width: 800px) {
+    .collapse form {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .bienvenida {
+        height: 790px;
+    }
+}
+
+@media (max-width:767px) {
+    .albumes {
+        margin-top:250px;
+    }
+}
+
+@media (max-width:766px) {
+    .albumes {
+        margin-top:250px;
+    }
+}
+
+@media (max-width:500px) {
+    .albumes {
+        margin-top:150px;
+    }
+}
+
+@media (max-width:584px) {
+    .py-3 {
+        flex-wrap: wrap;
+    }
+    .py-3 input {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:846px) {
+    .py-3 {
+        flex-wrap: wrap;
+    }
+    .py-3 input {
+        margin-bottom: 10px;
+    }
+    .bienvenida {
+        height: 750px;
+    }
+}
+
+@media (max-width:500px) {
+    .btn {
+        margin: 20px;
+    }
+}
+
+@media (min-width:501px) {
+    .btn {
+        margin: 20px;
+    }
+}
+
+@media (max-width:674px) {
+    .btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:767px) {
+    .imagen-jumbotron {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:767px) {
+    .imagen-jumbotron img {
+        margin-top:20px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .albumes {
+        padding: 100px 40px 70px 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1076px) {
+    .nosotros {
+        height: 550px;
+    }
+}
+
+@media (max-width: 848px) {
+    .nosotros {
+        height: 620px;
+    }
+}
+
+@media (max-width: 609px) {
+    .nosotros {
+        height: 670px;
+    }
+}
+
+@media (max-width: 542px) {
+    .nosotros {
+        height: 710px;
+    }
+}
+
+@media (max-width: 501px) {
+    .nosotros {
+        height: 800px;
+    }
+}
